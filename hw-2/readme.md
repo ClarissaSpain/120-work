@@ -1,8 +1,7 @@
 # Claire Spain
 *Creative Coding Module 2 Homework*
 
-<img src="https://s3-us-west-1.amazonaws.com/gitwebsite/Cactus-Logo.png"
-alt="Baby Cactus" style="width: 150px;"/>
+![Baby Cactus](https://s3-us-west-1.amazonaws.com/gitwebsite/Cactus-Logo.png)
 
 ## Weekly Q/A
 ### Summarize the Work you did this week.
@@ -23,7 +22,7 @@ alt="Baby Cactus" style="width: 150px;"/>
 ```
 But then I realized it didn't effect how it looked on the web simply in the preview. So I went back to my photo and compressed the 1000x1000 px photo to 150x150 px and reuploaded it again to Amazon S3 service. I genuinely felt like there was an easier way to do this so I went ahead and posted a forum to Mart 120 discussions...
 ### Anything in particular that you would like to discuss further?
-I did buy the HTML and CSS book that was recommended in the course materials and it helped quite a bit with this markdown file. It's definitely something to look into if anyone is still deciding whether or not to buy the book. 
+I did buy the HTML and CSS book that was recommended in the course materials and it helped quite a bit with this markdown file. It's definitely something to look into if anyone is still deciding whether or not to buy the book.
 ### What issues did you help your fellow classmates out this week?
 
 ## Screenshot of Markdown file in Atom

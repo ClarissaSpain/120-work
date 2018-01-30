@@ -1,7 +1,7 @@
 # Claire Spain
-Creative Coding Module 2 Homework
+*Creative Coding Module 2 Homework*
 
-<img src="https://s3-us-west-1.amazonaws.com/gitwebsite/Cactus-Logo.png"  alt="Baby Cactus" style="width: 150px;"/>
+<img src="https://s3-us-west-1.amazonaws.com/gitwebsite/Cactus-Logo.png" alt="Baby Cactus" width="150px" height="150px" />
 
 ## Weekly Q/A
 ### Summarize the Work you did this week.
@@ -20,7 +20,7 @@ My biggest issue was adding any images. It felt like a hit or miss, because I wa
 <img src="https://s3-us-west-1.amazonaws.com/gitwebsite/Cactus-Logo.png"
 alt="Baby Cactus" style="width: 150px;"/>
 ```
-I really wanted to be able to have a name appear when someone hovers their mouse above the image but I wasn't able to do that and get the sizing. It was either one or the other in my experience. 
+I really wanted to be able to have a name appear when someone hovers their mouse above the image but I wasn't able to do that and get the sizing. It was either one or the other in my experience.
 ### Anything in particular that you would like to discuss further?
 
 ### What issues did you help your fellow classmates out this week?

@@ -5,7 +5,7 @@ function setup(){
       createCanvas( 600, 400 );
 
       // color the background 'pink'
-      background('pink');
+      background('yellow');
 }
 
 // Declare draw() function
@@ -13,5 +13,8 @@ function draw(){
 
       // tell p5 to create the text string "Hello World"
       // This is going to be positioned at (x: 20, y: 30 ).
-      text( "Hello World", 20, 30 );
+
+      text( "Hello World", 30, 30 );
+      // the original text looked really funky so I changed the sizing.
+      textsize(16);
   }

@@ -1,7 +1,7 @@
 # Claire Spain
 *Creative Coding Module 3*
 
-["Hello World!" Sketch](https://clarissaspain.github.io/120-work/hw-3/)
+["Hello World!" Sketch]
 
 ![Baby Cactus](img/Cactus-Logo-2.png "Caspian")
 

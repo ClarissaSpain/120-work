@@ -4,7 +4,7 @@ function setup(){
       // created a canvas
       createCanvas( 600, 400 );
 
-      // color the background 'pink'
+      // color the background 'yellow'
       background('yellow');
 }
 

@@ -18,17 +18,17 @@ Was also informed on the importance of Comments and their uses.
 1. Copied empty-example and renamed hw-3 in Atom editor.
 2. Edited sketch.js. Added the following:
 
-```html
-      createCanvas( 600, 400 );
+  ```html
+        createCanvas( 600, 400 );
 
-      background('yellow');
-}
-
-function draw(){
-      text( "Hello World", 20, 30 );
-      textsize(16);
+        background('yellow');
   }
-```
+
+  function draw(){
+        text( "Hello World", 20, 30 );
+        textsize(16);
+    }
+  ```
 3. Commited and pushed file to my online repository.
 4. Made my Github 120 repository a live url and added hw-3/ to the end of the url, then I copied the url and added it as a link at the top of this webpage.
 

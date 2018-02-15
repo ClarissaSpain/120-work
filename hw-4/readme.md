@@ -13,7 +13,7 @@ This week I made an illustration in pf.js script.
 - The Error Console
 ### What steps did you make to complete this assignment?
 1. Made a sketch and tried to make it as simple as possible for the project.
-
+![Orignal Sketch in Procreate](..sketch.JPG)
 2. Created a 500 x 500 canvas.
 3. Started with the big shapes and worked my way into the smaller shapes/details.
 ```html

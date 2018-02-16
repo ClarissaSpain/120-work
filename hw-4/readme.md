@@ -41,8 +41,8 @@ This week I made an illustration in p5.js script and learned the following:
 
  4. I added a 10 x 10 grid on top of the drawing and found the points and then mulitplied those numbers by 50 in order to get each individual vertex for my canvas.
  5. Final image
- 
- ![Final Image](img/final.png)
+
+ ![Final Image](img/Final.png)
 
 ### Issues
 I didn't really have any issues with this project becuase it was pretty straightfoward. For a second I add issues using

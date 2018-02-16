@@ -1,7 +1,7 @@
 # Claire Spain
 *Creative Coding Module 4*
 
-![Baby Cactus](img/cactus-logo.png)
+![Baby Cactus](img/cactus_logo_04.png)
 
 [ Self-Portrait sketch.js](https://clarissaspain.github.io/120-work/hw-4/)
 ## Weekly Q/A

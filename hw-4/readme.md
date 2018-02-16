@@ -45,7 +45,7 @@ This week I made an illustration in p5.js script and learned the following:
  ![Final Image](img/Final.png)
 
 ### Issues
-I didn't really have any issues with this project becuase it was pretty straightfoward. For a second I add issues using
+I didn't really have any issues with this project becuase it was pretty straightfoward. 
 ### Further Discussion
 For the most part I used beginShape to create the sketch. However, I made sure to use other forms of drawing; inlcuding, *quads, triangles,* and *lines*. The other shapes didn't quite match the style of my sketch.
 

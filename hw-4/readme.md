@@ -1,7 +1,7 @@
 # Claire Spain
 *Creative Coding Module 4*
 
-![Baby Cactus](img/cactus-logo.png "Caspain")
+![Baby Cactus](img/cactus-logo.png)
 
 [ Self-Portrait sketch.js](https://clarissaspain.github.io/120-work/hw-4/)
 ## Weekly Q/A
@@ -16,7 +16,7 @@ This week I made an illustration in p5.js script and learned the following:
 - Function transformations
  - ``` translate(-2, 5)```
 - Order of Operations
-  - *Super important when it came to adding the hair and the face details.* 
+  - *Super important when it came to adding the hair and the face details.*
 
 ### Steps
  1. Made a sketch and tried to make it as simple as possible for the project.

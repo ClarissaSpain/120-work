@@ -41,5 +41,5 @@ I did buy the recommended HTML and CSS book from the course materials and it hel
 Keeping my eyes peeled for any new issues that will come up.
 ## Screenshot of Markdown file in Atom
 
-![Atom Editor Screenshot](https://s3-us-west-1.amazonaws.com/gitwebsite/screenshoteditor.png)
+![Atom Editor Screenshot](./img/atom_screenshot_w2.png)
 *I had a lot of fun throwing in a quick illustration of a cactus named Caspian.*

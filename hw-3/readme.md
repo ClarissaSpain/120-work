@@ -3,7 +3,7 @@
 
 ["Hello World!" Sketch](https://clarissaspain.github.io/120-work/hw-3/)
 
-![Baby Cactus](img/Cactus-Logo-2.png "Caspian")
+![Baby Cactus](./img/Cactus-Logo-2.png "Caspian")
 
 ## Week 3 Q/A
 ### A Summary of the Work I did this Week

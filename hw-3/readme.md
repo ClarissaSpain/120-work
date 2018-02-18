@@ -42,4 +42,4 @@ I add a quick misstep in trying to do the Inspect Element in my browser. I quick
 The font/size of my original Hello World sketch looked a little off and so I changed the size of the text in my sketch and it made the text much cleaner.
 
 ### Screenshot of my sketch.js and html code
-![Screenshot of Sketch and html code in editor](img/hw-3_editor.png)
+![Screenshot of Sketch and html code in editor](./img/hw-3_editor.png)

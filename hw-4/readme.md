@@ -1,7 +1,7 @@
 # Claire Spain
 *Creative Coding Module 4*
 
-![Baby Cactus](img/cactus_logo_04.png)
+![Baby Cactus](./img/cactus_logo_04.png)
 
 [ Self-Portrait sketch.js](https://clarissaspain.github.io/120-work/hw-4/)
 ## Weekly Q/A
@@ -42,16 +42,16 @@ This week I made an illustration in p5.js script and learned the following:
  4. I added a 10 x 10 grid on top of the drawing and found the points and then mulitplied those numbers by 50 in order to get each individual vertex for my canvas.
  5. Final image
 
- ![Final Image](img/Final.png)
+ ![Final Image](./img/Final.png)
 
 ### Issues
-I didn't really have any issues with this project becuase it was pretty straightfoward. 
+I didn't really have any issues with this project becuase it was pretty straightfoward.
 ### Further Discussion
 For the most part I used beginShape to create the sketch. However, I made sure to use other forms of drawing; inlcuding, *quads, triangles,* and *lines*. The other shapes didn't quite match the style of my sketch.
 
 ## Screenshots
 Readme File
-![Markdown File](img/Markdown_img.png "Markdown")
+![Markdown File](./img/Markdown_img.png "Markdown")
 
 Sketch.js File
-![Sketch.js File](img/sketch_js_img.png "Sketch.js")
+![Sketch.js File](./img/sketch_js_img.png "Sketch.js")

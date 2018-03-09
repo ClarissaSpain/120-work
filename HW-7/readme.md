@@ -1,18 +1,12 @@
 Claire Spain, Group C
 
-[Live Sketch Link](Your Live Link)
+[Live Sketch Link](https://clarissaspain.github.io/120-work/HW-7/)
 
 
 # HW 7 | Describe then Alter the Bouncing Ball
 
 ## Description of What the Original Code is Doing
 The orginal code is drawing an ellipse that is moving at a constant rate on the x and y axis. By creting a **cieling** around the perameter of the canvas, the code creates the illusion that ellipse is bouncing off the edges of the canvas because it. Furthermore, once you click the mouse once the rate of speed increases.
-### Why is it working the way it is?
-xpos = xpos + ( xspeed * xdirection ); ypos = ypos + ( yspeed * ydirection );
-
-reverse its direction by multiplying by -1
-
-if (xpos > width-rad || xpos < rad) { xdirection *= -1; } if (ypos > height-rad || ypos < rad) { ydirection *= -1; }
 ### What does each line do?
 ```
 

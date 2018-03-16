@@ -4,7 +4,9 @@
  [Live Sketch](https://clarissaspain.github.io/120-work/hw_8/)
 ### Loops
 First, I practiced by writing some examples from __Make: Getting Started with p5.js__ pg 50 - 51.
+
 4.9 Kinking lines
+
 ![Example 4.9](./img/Ex_4_9.png)
 ```
  for(var i = 20; i < 800; i += 20){
@@ -12,7 +14,9 @@ First, I practiced by writing some examples from __Make: Getting Started with p5
    line(i + i/2, 80, i*1.2, 400);
  }
  ```
+
 4.10 Nested Loops
+
 ![Example 4.10](./img/Ex_4_10.png)
 ```
 for (var y = 0; y <= height; y += 40){

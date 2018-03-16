@@ -1,7 +1,7 @@
 ## Claire Spain
  Module 8 Group C
- 
- Live Sketch()
+
+ [Live Sketch](https://clarissaspain.github.io/120-work/hw_8/)
 ### Loops
 First, I practiced by writing some examples from __Make: Getting Started with p5.js__ pg 50 - 51.
 4.9 Kinking lines

@@ -1,13 +1,21 @@
+var x = 320;
+var y = 180;
+var xspeed = 5;
+var yspeed = 2;
+
+var r = 25;
+
 function setup() {
-createCanvas( windowWidth, 200);
+  createCanvas(windowWidth, 200);
 
 }
 
 function draw() {
   background('pink');
-  for (var x = -35; x < width + 70; x += 70) {
-  cactus( x, 50);
+  for (var x = -35; x < windowWidth + 70; x += 70) {
+    cactus(x, 50);
   }
+  ball();
 }
 
 // created a function called cactus
@@ -51,5 +59,21 @@ function cactus(x, y) {
   stroke(3);
   arc(35, 35, 15, 15, QUARTER_PI, PI - QUARTER_PI);
   pop();
+  pop();
+}
+
+function ball() {
+  push();
+  fill('yellow');
+  noStroke();
+  ellipse(x, y, r * 2, r * 2);
+  x += xspeed;
+  y += yspeed;
+  if (x > width - r || x < r) {
+    xspeed = -xspeed;
+  }
+  if (y > height - r || y < r) {
+    yspeed = -yspeed;
+  }
   pop();
 }

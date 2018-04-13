@@ -1,65 +1,60 @@
-let Cacti = [];
-let num_of_cacti = 17
+let particles = [];
+// realized I needed to set variables to make the random particle color
+var r, g, b;
 
-function setup(){
+function setup() {
   createCanvas(windowWidth, 800);
-  for (let i = 0; i < num_of_cacti; i++) {
-      Cacti.push( new Cactus() );
-  }
+  r = random(255);
+  g = random(255);
+  b = random(255);
+
 }
 
 function draw() {
-  background('#bacaef');
-
+  background('pink');
+  // because that's a great color
+  for (let i = 0; i < 5; i++) {
+    let p = new Particle();
+    particles.push(p);
+  }
+  for (let i = particles.length - 1; i >= 0; i--) {
+    // Dan Shiffman was a great help in this assignment. I learned a lot,
+    // and I hope my code is still unique.
+    particles[i].update();
+    particles[i].show();
+    if (particles[i].finished()) {
+      // remove the particle
+      particles.splice(i, 1);
+    }
+  }
 }
-
-// a class definition
-class Cactus {
+class Particle {
   constructor() {
-    this.green = color(random(255), random(255), random(255));
-    this.brown = color(random(255), random(255), random(255));
-    this.pink = color(random(255), random(255), random(255));
-    this.length_h = random()
+    this.x = (mouseX);
+    this.y = (mouseY);
+    // this. x and this.y were actually numbers but I wanted
+    // the curser to be the start of the particles. So I threw those
+    // in and was very surprised it worked the first time. Usually,
+    // any changes break the code twenty times before it works.
+    this.vx = random(-1, 1);
+    this.vy = random(-6, -1);
+    this.alpha = 255
   }
 
-display()  {
-  push();
-  translate(x, y);
-  // details like flower top
-  push();
-  fill(this.pink);
-  noStroke();
-  translate(35, 10);
-  for (var i = 0; i < 10; i++) {
-    ellipse(0, 5, 5, 10);
-    rotate(PI / 5);
+  finished() {
+    return this.alpha < 0;
   }
-  pop();
-  // Cactus
-  fill(this.green);
-  noStroke();
-  rect(10, 10, 50, 70, 25, 25, 3, 3);
-  // top of clay pot
-  push();
-  fill(this.brown);
-  noStroke();
-  ellipse(35, 55, 65, 15);
-  noStroke();
-  arc(35, 58, 55, 50, 0, PI, CHORD);
-  pop();
-  // Face
-  push();
-  fill('black')
-  ellipse(25, 40, 5, 5);
-  ellipse(45, 40, 5, 5);
-  pop();
-  push();
-  noFill();
-  stroke(3);
-  arc(35, 35, 15, 15, QUARTER_PI, PI - QUARTER_PI);
-  pop();
-  pop();
-}
-
-
+// 'Animates' the particles to move with every frame.
+  update() {
+    this.x += this.vx;
+    this.y += this.vy;
+    this.alpha -= 3;
+  }
+// Show similar to display
+  show() {
+    noStroke();
+    // stroke(255);
+    fill(r, g, b, this.alpha);
+    ellipse(this.x, this.y, 30);
+  }
 }

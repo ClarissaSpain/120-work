@@ -20,9 +20,8 @@ function Flower(x, y){
   }
 
   this.show = function(){
-    image(flower, this.x, this.y, this.r*2, this.r*2);
-    // noStroke();
-    // fill(255, 0, 200);
-    // ellipse(this.x, this.y, this.r*2, this.r*2);
+    noStroke();
+    fill('#e17cea');
+    ellipse(this.x, this.y, this.r*2, this.r*2);
   }
 }

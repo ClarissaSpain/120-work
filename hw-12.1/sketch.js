@@ -2,12 +2,6 @@ var ship;
 var flowers = [];
 var drops = [];
 
-let img;
-
-function preload() {
-  img = loadImage('12.1_images/camomile.png');
-}
-
 function setup(){
   createCanvas(800, 600);
   ship = new Ship();
@@ -18,7 +12,7 @@ function setup(){
 }
 
 function draw(){
-background('pink');
+background('#86ed7d');
 ship.show();
 ship.move();
 for (var i = 0; i < drops.length; i++){
@@ -40,6 +34,7 @@ for (var i = 0; i < flowers.length; i++){
   if (flowers[i].x > width || flowers[i]. x < 0){
     edge = true;
   }
+
 }
 
 if (edge) {
@@ -47,6 +42,7 @@ if (edge) {
     flowers[i].shiftDown();
   }
 }
+
 
 // walking through the array backwards so that I don't skip elements.
 for (var i = drops.length-1; i >= 0; i--){
@@ -56,22 +52,7 @@ for (var i = drops.length-1; i >= 0; i--){
   }
 }
 
-function keyReleased(){
-  if (key != ' '){
-  ship.setDir(0);
-  }
-}
-
-function keyPressed() {
-  if (key === ' '){
-    var drop = new Drop(ship.x, height);
-    drops.push(drop);
-  }
-
-
-  if (keyCode === RIGHT_ARROW) {
-    ship.setDir(1);
-  } else if (keyCode === LEFT_ARROW ) {
-    ship.setDir(-1);
-  }
+function mousePressed(){
+  var drop = new Drop(ship.x, height);
+  drops.push(drop);
 }

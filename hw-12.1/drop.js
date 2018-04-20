@@ -6,8 +6,8 @@ function Drop(x, y){
 
   this.show = function(){
     noStroke();
-    fill('blue');
-    ellipse(this.x, this.y, this.r*2, this.r*2);
+    fill('#87b5ff');
+    ellipse(this.x, this.y, this.r*2, this.r*3);
   }
 
   this.evaporate = function() {

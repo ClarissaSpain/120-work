@@ -1,6 +1,7 @@
 ## Claire Spain
 Module 12
-Live Sketch
+
+[Live Sketch](https://clarissaspain.github.io/120-work/hw-12.1/)
 
 ### Work Summary
 I attempted to create an Invader shooter game where different objects interacted with each other. I took a lot of notes on Shiffman's videos and implamented them into my code. I wanted to replace the ellipses that move back and forth on the canvas to be flower png, but my code kept breaking and it said I needed a local server and when I attempted to create one through python, it just wouldn't work. So...my *flowers* are just lousy circles.

@@ -1,8 +1,9 @@
 function Drop(x, y){
-  this.x = x;
-  this.y = y;
-  this.r = 8;
+  this.x = mouseX;
+  this.y = height-125;
+  this.r = 4;
   this.toDelete = false;
+
 
   this.show = function(){
     noStroke();
@@ -14,11 +15,12 @@ function Drop(x, y){
     this.toDelete = true;
   }
 
-  this.hits = function(flower){
-    var d = dist(this.x, this.y, flower.x, flower.y);
-    if (d < this.r + flower.r){
-      return true;
-    } else {
+  this.hits = function(cactus){
+
+    var d = dist(this.x, this.y, cactus.x, cactus.y);
+    if (d < this.r + cactus.r){
+        return true;
+    }else {
       return false;
     }
   }
